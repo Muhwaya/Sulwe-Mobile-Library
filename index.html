@@ -1,0 +1,160 @@
+SulweSite/
+│
+├── index.html
+├── achiengimage.jpg
+├── otienoimage.jpg
+├── zawadiimage.jpg
+├── musaImage.jpg.jpeg
+├── SulweCoverImage.jpg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sulwe Mobile Library – Bringing Books & Digital Learning to Kisumu</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, nav, section, footer { padding: 20px; }
+    nav { background: #333; color: white; }
+    nav ul { list-style: none; display: flex; gap: 15px; padding: 0; margin: 0; }
+    nav ul li { display: inline; }
+    nav a { color: white; text-decoration: none; }
+    .hero {
+      background: url('SulweCoverImage.jpg') no-repeat center center/cover;
+      height: 400px;
+      position: relative;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 { background-color: rgba(0,0,0,0.6); padding: 20px; }
+    .btn {
+      display: inline-block;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .section { padding: 30px; }
+    .programs img, .impact img { max-width: 100%; height: auto; border-radius: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    footer { background: #f1f1f1; text-align: center; padding: 20px; }
+    form input, form textarea {
+      width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#get-involved">Get Involved</a></li>
+    <li><a href="#impact">Impact Stories</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <h1>Empowering Kisumu’s Children Through Books & Technology</h1>
+    <a href="#get-involved" class="btn">Support Our Mission</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>Bridging the Digital Divide & Promoting Literacy</h2>
+  <p>The Sulwe Mobile Library is an initiative dedicated to providing books, tablets, and tech literacy tools to children in urban and semi-urban areas of Kisumu. We believe every child deserves the chance to read, learn, and explore technology—no matter their background.</p>
+  <ul>
+    <li>✔ Provide access to storybooks and educational materials</li>
+    <li>✔ Offer basic digital literacy training using tablets and laptops</li>
+    <li>✔ Promote inclusive learning for all children, including those with disabilities</li>
+    <li>✔ Foster a culture of storytelling and creativity</li>
+  </ul>
+</section>
+
+<section id="programs" class="section">
+  <h2>Our Programs</h2>
+  <div class="grid programs">
+    <div>
+      <h3>📚 Mobile Library</h3>
+      <p>A tuk-tuk stocked with books & digital devices travels through Kisumu, bringing education to children.</p>
+    </div>
+    <div>
+      <h3>💻 Digital Literacy & Tech Training</h3>
+      <p>Providing interactive tablets with Khan Academy Lite, Scratch coding, and Wikipedia Offline for early learners.</p>
+    </div>
+    <div>
+      <h3>🎭 Storytelling & Creativity Workshops</h3>
+      <p>Featuring local mentors and interactive storytelling sessions for children like Zawadi, Achieng, Otieno, and Musa.</p>
+    </div>
+  </div>
+</section>
+
+<section id="impact" class="section">
+  <h2>Impact Stories</h2>
+  <div class="grid impact">
+    <div>
+      <img src="achiengimage.jpg" alt="Achieng">
+      <h3>🌟 Achieng – The Aspiring Storyteller</h3>
+      <p>Achieng, 11, loves drawing and storytelling but lacks books and electricity at home. The mobile library gives her access to storybooks, creative writing tablets, and solar-powered reading lamps.</p>
+    </div>
+    <div>
+      <img src="otienoimage.jpg" alt="Otieno">
+      <h3>🔧 Otieno – The Future Engineer</h3>
+      <p>Otieno, 13, is curious about electronics but lacks tools. With digital workshops and donated tech kits, he’s learning coding and hardware repair!</p>
+    </div>
+    <div>
+      <img src="zawadiimage.jpg" alt="Zawadi">
+      <h3>🎨 Zawadi – The Young Artist</h3>
+      <p>Zawadi, 9, expresses herself through art and storytelling. She now uses tablets and drawing apps, creating stunning illustrations that bring her ideas to life!</p>
+    </div>
+    <div>
+      <img src="musaImage.jpg.jpeg" alt="Musa">
+      <h3>♿ Musa – The STEM Explorer</h3>
+      <p>Musa, 12, loves puzzles and science. The mobile library provides accessible learning tools like text-to-speech software and interactive STEM games!</p>
+    </div>
+  </div>
+</section>
+
+<section id="get-involved" class="section">
+  <h2>Join Us in Making Learning Accessible!</h2>
+  <ul>
+    <li>✔ Donate a book, tablet, or laptop</li>
+    <li>✔ Sponsor a mobile learning session</li>
+    <li>✔ Volunteer as a mentor or storyteller</li>
+    <li>✔ Become a community partner</li>
+  </ul>
+  <a href="#contact" class="btn">Sign Up to Support</a>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <p>📧 Email: <a href="mailto:sulweinfocenter@gmail.com">sulweinfocenter@gmail.com</a></p>
+  <p>📞 Mobile: +254 721 723944</p>
+  <p>📍 Location: Kisumu, Kenya</p>
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>📖 Follow Our Journey on 
+    <a href="#">Facebook</a> | 
+    <a href="#">Twitter</a> | 
+    <a href="#">LinkedIn</a>
+  </p>
+  <p>🎓 Sulwe Mobile Library – Inspiring Young Minds, One Book at a Time!</p>
+</footer>
+
+</body>
+</html>
